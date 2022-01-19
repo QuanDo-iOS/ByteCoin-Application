@@ -50,6 +50,7 @@ extension ViewController : UIPickerViewDelegate {
 }
 
 extension ViewController : CoinManagerDelegate {
+    // update View when change coin
     func didUpdateCurrency(coinModel: CoinModel) {
         DispatchQueue.main.async {
             self.bitcoinLabel.text = coinModel.bitcoinString

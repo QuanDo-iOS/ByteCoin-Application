@@ -85,10 +85,6 @@
                                     </view>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="na's photo" translatesAutoresizingMaskIntoConstraints="NO" id="VsB-6v-CXk">
-                                <rect key="frame" x="79" y="278" width="257" height="340"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CjI-yV-vnC"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
@@ -114,7 +110,6 @@
     </scenes>
     <resources>
         <image name="bitcoinsign.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="na's photo" width="512" height="682"/>
         <namedColor name="Icon Color">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
